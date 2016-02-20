@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ClickObject.cs">
+    <Files>
+      <File FileName="Assets\PlayerControl.cs" Line="27" Column="3" />
+      <File FileName="Assets\ClickObject.cs" Line="64" Column="10" />
+      <File FileName="Assets\InspectButtonScript.cs" Line="5" Column="2" />
+      <File FileName="Assets\InteractButtonScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
