@@ -12,7 +12,7 @@ public class ClickObject : MonoBehaviour {
 	public GameObject obj;
 	public InspectButtonScript script;
 	public InteractButtonScript script2;
-
+    bool withinDistance = false;
 
 
 	// Use this for initialization
@@ -33,11 +33,17 @@ public class ClickObject : MonoBehaviour {
 	
 	void OnMouseDown()
     {
-
-		display = true;
-		script.enableButtons (true);
-		script2.enableButtons (true);
-		Debug.Log ("You clicked it");
+        if (withinDistance == true)
+        {
+            display = true;
+            script.enableButtons(true);
+            script2.enableButtons(true);
+            Debug.Log("You clicked it");
+        }
+        else
+        {
+            Debug.Log("Too far away");
+        }
 
 
     }
@@ -62,5 +68,10 @@ public class ClickObject : MonoBehaviour {
         {
             display = false;
         }
+    }
+
+    public void isWithinDistance(bool newWithinDistance)
+    {
+        withinDistance = newWithinDistance;
     }
 }
