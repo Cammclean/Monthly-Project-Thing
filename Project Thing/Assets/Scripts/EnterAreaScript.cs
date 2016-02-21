@@ -25,15 +25,18 @@ public class EnterAreaScript : MonoBehaviour {
 
     IEnumerator UnloadScene()
     {
-        yield return new WaitForSeconds(0.1f);
-        SceneManager.UnloadScene(currLevel);
+        yield return new WaitForSeconds(0f);
 
         StartCoroutine(ClearScene());
+
+        SceneManager.UnloadScene(currLevel);
+
     }
 
     IEnumerator ClearScene()
     {
         yield return new WaitForSeconds(1.0f);
+
         Resources.UnloadUnusedAssets();
     }
 }
