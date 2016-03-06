@@ -1,0 +1,62 @@
+Bartender:
+Whats up?
+
+Mc:
+You wouldn't happen to have any spare change, would you?
+
+Bartender:
+Change? What for?
+
+Mc:
+I kind of forgot to reimburse my metro card.
+So, I'm stuck.
+
+Bartender:
+Mm. Wow, quite the predicament.
+This happen often?
+
+Mc:
+I'm sad to say that it has.
+
+Bartender:
+Well, sorry to hear that.
+But, no I don't have anything on me.
+And, I'm certainly not taking from the register.
+
+Mc:
+Damn.
+
+Default:
+
+Mc:
+Are you sure? I really need to get home.
+
+Bartender:
+Sorry, ma'am. I'm not on the best terms with my manager so I really can't stick my neck out for you.
+
+Mc:
+*sigh*
+Yeah, alright.
+I'll try someone else.
+
+Manipulation:
+
+Mc:
+Lets say I give you a really nice tip the next time I happen to pass by?
+Could you maybe consider giving me enough to get on a subway?
+I'd be in your debt.
+
+Bartender:
+Sounds tempting, but there's a problem.
+My manager is currently running the register. And he isn't really on good terms with me in the first place.
+But, if you could distract him somehow, I could probably sneak a few dollars from the register or tip jar.
+
+Mc:
+Okay, sounds like a plan.
+
+Bartender:
+Alright, just try to get his attention somehow.
+Good luck.
+
+
+
