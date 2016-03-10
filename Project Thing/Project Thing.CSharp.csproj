@@ -75,6 +75,8 @@
     <Compile Include="Assets\Scripts\InspectButtonScript.cs" />
     <Compile Include="Assets\Scripts\InteractButtonScript.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\Stress.cs" />
+    <Compile Include="Assets\Scripts\TextStuff.cs" />
     <Compile Include="Assets\Scripts\WithinDistanceScript.cs" />
     <Compile Include="Assets\Scripts\createButton.cs" />
   </ItemGroup>
@@ -176,6 +178,9 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\Text\BartenderDialogue1.txt" />
+    <None Include="Assets\Text\BartenderDialogue2.txt" />
+    <None Include="Assets\Text\BartenderDialogue3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
